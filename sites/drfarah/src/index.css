@@ -230,6 +230,13 @@ h1, h2, h3, h4 {
   background: linear-gradient(135deg, transparent 40%, rgba(184, 112, 74, 0.3));
 }
 
+.logo-mark-img {
+  height: 44px;
+  width: auto;
+  border-radius: var(--radius-sm);
+  object-fit: contain;
+}
+
 .logo-text {
   display: flex;
   flex-direction: column;

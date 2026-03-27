@@ -45,7 +45,7 @@ function App() {
       <header className={`header ${scrolled ? 'scrolled' : ''}`}>
         <div className="container header-inner">
           <a href="#" className="logo">
-            <div className="logo-mark">FE</div>
+            <img className="logo-mark-img" src="/images/logo-dr-farah.png" alt="Dr. Farah VIP Urgent Care" />
             <div className="logo-text">
               <span className="logo-name">Dr. Farah Eskandari</span>
               <span className="logo-title">Board-Certified Physician</span>
@@ -120,7 +120,7 @@ function App() {
 
           <div className="hero-image">
             <img
-              src="https://drfarahvipurgentcare.com/wp-content/uploads/2025/02/dr-farah-about.png"
+              src="/images/drfarah.webp"
               alt="Dr. Farah Eskandari, MD — Board-Certified Physician in Beverly Hills"
             />
           </div>
@@ -231,8 +231,8 @@ function App() {
             <div className="about-image fade-up">
               <div className="about-image-accent" />
               <img
-                src="https://drfarahvipurgentcare.com/wp-content/uploads/2025/02/drfarah.webp"
-                alt="Dr. Farah Eskandari treating a patient"
+                src="/images/photo_2025-02-18_10-09-00.jpg"
+                alt="Dr. Farah Eskandari with a patient in her Beverly Hills office"
               />
             </div>
 
@@ -483,7 +483,7 @@ function App() {
           <div className="footer-grid">
             <div className="footer-brand">
               <div className="logo">
-                <div className="logo-mark">FE</div>
+                <img className="logo-mark-img" src="/images/logo-dr-farah.png" alt="Dr. Farah VIP Urgent Care" />
                 <div className="logo-text">
                   <span className="logo-name">Dr. Farah Eskandari</span>
                   <span className="logo-title">Board-Certified Physician</span>
@@ -556,7 +556,7 @@ function App() {
             "description": "Board-certified physician offering VIP urgent care and regenerative medicine in Beverly Hills. 30+ years of experience in emergency and family medicine. Same-day appointments available.",
             "url": "https://drfarah.md",
             "telephone": "+1-310-467-0101",
-            "image": "https://drfarahvipurgentcare.com/wp-content/uploads/2025/02/dr-farah-about.png",
+            "image": "https://drfarah.md/images/drfarah.webp",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Beverly Hills",
@@ -614,7 +614,7 @@ function App() {
             "@type": "Physician",
             "name": "Dr. Farah Eskandari",
             "description": "Board-certified physician with 30+ years of experience in emergency medicine, family medicine, and regenerative therapies.",
-            "image": "https://drfarahvipurgentcare.com/wp-content/uploads/2025/02/drfarah.webp",
+            "image": "https://drfarah.md/images/drfarah.webp",
             "medicalSpecialty": ["Family Medicine", "Emergency Medicine", "Regenerative Medicine"],
             "memberOf": [
               { "@type": "Organization", "name": "American Medical Association" },
